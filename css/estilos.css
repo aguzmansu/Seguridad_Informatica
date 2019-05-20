@@ -1,0 +1,412 @@
+/*estilos globales*/
+body{
+	font: 12px;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;	
+	width: 100%;
+}
+.contenedor{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	margin:auto;
+	background-color: #005883;
+	padding: 1px;
+	min-height: 1px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 100;
+	height: 10px;	
+}
+figure{
+	width: 100%;
+	margin: auto;
+	padding-left: 0px;
+	min-height: 1px;
+	top:0;
+	left: 0;
+	z-index: 100;
+}
+
+section{
+	width: 100%;
+	padding-left: 1px;
+	min-height: 1px;
+	top:0;
+	left: 0;
+	z-index: 100;
+}
+aside{
+	width: 100%;
+	padding-left: 1px;
+	min-height: 1px;
+	top:0;
+	left: 0;
+	z-index: 100;
+}
+	a{
+		color:  #005883;
+}
+footer{
+	width: 100%;
+	padding-left: 1px;
+	min-height: 1px;
+	top:0;
+	left: 0;
+	z-index: 100;
+}
+
+nav{
+	width: 100%;
+}
+
+/*Encabezado*/
+header #marca{
+	position: relative;
+	background-color: #005883;
+	padding: 1px;
+	min-height: 30px;
+}
+header #marca h1{
+	padding: 1px;
+	margin: auto;
+	text-align: center;
+	color: #f4f4f4;
+	font-size: 21px;
+}
+header .resaltado, .actual a{
+	color: #F0B429;
+	font-weight: bold;
+}
+
+
+
+/*Buscador*/
+.header-top{
+	width: 100%;
+	background: #b3b3b3;
+	margin: 0%;
+}
+.navegacion{
+	width: 90%;
+	height: 1px;
+	max-width: 1000px;
+	margin: auto;
+	padding:20px 0;
+}
+input[type="search"]{
+	background: #B3B3B3;
+	color:  #005883;
+	float: right;
+	padding: 10px;
+	padding-right: 50px;
+	border: none;
+	margin-top: -17px; 
+	position: relative;
+	margin-left:  250px;
+}
+#icon{
+background: # #B3B3B3;
+}
+.search{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	background: #F0B429;
+	padding:0 10px;
+	padding-bottom: 5px;
+	max-height: 85%;
+	overflow-x: hidden;
+	display: none;
+}
+.search-table{
+	width: 100%;
+}
+tbody tr td{
+	width: 100%;
+}
+tbody tr td a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #f4f4f4;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+	padding-left: 20px;
+	border: 2px solid #fff;
+}
+tbody tr td a:hover{
+	border: 2px solid #F0B429;
+}
+.search::-webkit-scrollbar{ 
+	background:rgba(0,0,0,0);  
+}
+.search::-webkit-scrollbar-button{
+ 	background:#C1C1C1;  
+}
+.search::-webkit-scrollbar-thumb{ 
+	background:#C1C1C1; 
+}
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate{
+	display: none;
+}
+
+
+
+/*menus*/
+#logounad img{
+	width: 243px;
+	margin:auto;
+	padding-left: 15px;
+	padding-top: 100px;
+	padding-bottom: 3px;
+}
+#menus ul{
+	margin: 0;
+	padding-top: 21px;
+	padding-left: 0;
+}
+#menus li{
+	text-align: center;
+	display: inline;
+	padding: 0 30px 0 30px;
+}
+#menus nav{
+	text-align: center;
+	margin-top: 0px;
+}
+#menus a{
+	
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 19px;
+}
+#menus a:hover{
+	font-size: 20px;
+	background: #005883;
+	color: #fff;
+}
+#menus a:focus{
+	background: #005883;
+	color: #fff;
+}
+#menus a:active{
+	color:#f4f4f4;
+	background: #F0B429;
+	font-weight: 20;
+}
+
+
+/*cabecera*/
+#cabecera .contenedor{
+	height: 400px;
+}
+#cabecera h2{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	font-size: 39px;
+	color: #f4f4f4;
+	background-color: #F0B429;
+}
+#cabecera img{
+	width: 100%;
+	height: 600px;
+	margin: auto;
+}
+#cabecera p{
+	text-align: center;
+	margin-top: 0px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #f4f4f4;
+	background-color:#005883;
+}
+
+
+
+/*Cajas*/
+/*cajas1*/
+#cajas {
+	margin:0;
+}
+#cajas .contenedor{
+margin:0;
+}
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 25.7%;
+	margin: 3.8%;
+	padding-top: 15px;
+	padding-left: 0;
+	padding-bottom: 15px;
+}
+#cajas .caja img{
+	width: 90px;
+	height: 93.35px;
+}
+#cajas .caja h4{
+	color: #005883;
+	font-size: 14px;
+}
+#cajas .caja p{
+	color: #005883;
+}
+#cajas .caja a{
+	text-decoration: none;
+}
+/*cajas2*/
+#cajas2 {
+	margin-top: 80px;
+	margin:0;
+}
+#cajas2 .contenedor{
+margin:0;
+}
+#cajas2 .caja2{
+	float: left;
+	text-align: center;
+	width: 25.7%;
+	margin: 3.8%;
+	padding-top: 15px;
+	padding-left: 0;
+	padding-bottom: 15px;
+}
+#cajas2 .caja2 img{
+width: 90px;
+height: 93.35px;
+}
+#cajas2 .caja2 h4{
+	color: #005883;
+	font-size: 14px;
+}
+#cajas2 .caja2 p{
+	color: #005883;
+}
+#cajas2 .caja2 a{
+	text-decoration: none;
+}
+
+
+
+/*widget para la red social Twitter*/
+#twittertitulo{
+	padding: 0px;
+	background: #005883;
+	height: 30px;
+	text-align: center;
+}
+	
+#twittertitulo h5{
+color: #f4f4f4;	
+font-size: 25px;
+margin-top: 10px; 
+margin-bottom: 5px;
+}
+#twitter{
+	margin-top: 0px;
+}
+
+#twitter img{
+	width: 60px;
+}
+#twitter ul{
+	margin: 0;
+	padding: 0;
+}
+#twitter li{
+	text-align: center;
+	display: inline;
+	padding-left: 20px;
+	padding-right:30px;
+	margin-left: 9%;
+}
+#twitter nav{
+	text-align: center;
+	margin-top: 0px;
+	padding-left: 30px;
+}
+/*contador*/
+#contadores{
+	padding: 0px;
+	background: #005883;
+	height: 30px;
+}
+#contadores .contador {
+height: 30px;
+}
+#contadores .contador h3{
+text-align: center;
+margin-top: 1px;
+color: #f4f4f4;
+font-size: 25px;}
+#contadores1{
+	padding: 0px;
+	background: #F0B429;
+	height: 40px;
+}
+#contadores1 .contador1 {
+height: 40px;
+}
+#contadores1 .contador1 img{
+margin: auto;
+display: block;
+padding: 0px;
+height: 40px;
+margin-top: 1px;
+}
+
+
+
+/*Footer (Pie de Pagina)*/
+#piedepagina{
+	background-color: black;
+}
+#piedepagina nav{
+	text-align: center;
+	margin-top: 0px;
+	padding-left: 1px;
+	border-top: 1px solid #333;
+}
+#piedepagina ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#piedepagina li{
+	text-align: center;
+	display: inline;
+	padding-left: 0px;
+	padding-right:0px;
+	margin-left: 0px;
+}
+#piedepagina a{
+	color: #f4f4f4;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.pie3 #UNAD{
+	width: 276px;
+	height: 96px;
+}
+#piedepagina .contenedor .pie3 nav #UNAD{
+	text-align: center;
+	margin-top: 0px;
+	padding-right: 50px;
+}
+#piedepagina .contenedor .pie3 nav #logopagina{
+	text-align: center;
+	margin-top: 0px;
+	padding-left: 50px;
+}
