@@ -1,0 +1,46 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "d7271d490b71df4311e32cdacae8b331",
+      "css": "inicio",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "47a1f80457068fbeab69fdb83d7d0817",
+      "css": "multimedia",
+      "code": 61802,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "72681d2825fef7fd83711278f845547b",
+      "css": "autores",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "3eadc3e443cf1c7e17f1b44d21254c00",
+      "css": "objetivos",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "44b9e75612c5fad5505edd70d071651f",
+      "css": "actividades",
+      "code": 59397,
+      "src": "entypo"
+    },
+    {
+      "uid": "56a766cedf13005162899b02cf9546b9",
+      "css": "referencias",
+      "code": 59427,
+      "src": "maki"
+    }
+  ]
+}

@@ -1,5 +1,8 @@
 var consulta = $("#searchTable").DataTable();
 
+
+
+
 $("#inputBusqueda").keyup(function(){
 	consulta.search($(this).val()).draw();
 
@@ -12,6 +15,7 @@ $("#inputBusqueda").keyup(function(){
 		$("header").css({
 			"height": "auto",
 			"background": "none"
+
 		})
 
 		$("#search").hide()
@@ -19,4 +23,20 @@ $("#inputBusqueda").keyup(function(){
 	} else {
 		$("#search").fadeIn("fast");
 	}
+
+
 })
+
+
+
+ $('#inputBusqueda').focus(function() {              
+            if ( ($('#inputBusqueda').val() == placeholder)  )                      
+            {   
+                $('#search').attr('value','');                     
+                $('#search').removeClass('value',placeholder);
+            }
+        });
+   
+
+
+	

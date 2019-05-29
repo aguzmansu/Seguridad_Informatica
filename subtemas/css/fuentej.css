@@ -1,0 +1,41 @@
+
+
+
+
+@font-face {
+    font-family: 'angsana_newregular';
+    src: url('fonts/angsa-webfont.woff2') format('woff2'),
+         url('fonts/angsa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url('fonts/FranklinGothic-Heavy.woff2') format('woff2'),
+        url('fonts/FranklinGothic-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/*Fuente para pagina principal index.html*/
+#marca{ font-family: "angsana_newregular",normal;}
+.navegacion{ font-family: "angsana_newregular",sans-serif; }
+.search{font-family: "Franklin Gothic",sans-serif;}
+.resaltado{font-family: "Franklin Gothic",sans-serif;}
+.actual{font-family: "Franklin Gothic",sans-serif;}
+#menus a:hover{font-family: "angsana_newregular",normal;}
+#menus a:focus{ font-family: "angsana_newregular",normal;}
+#menus a:active{font-family: "Franklin Gothic",sans-serif;}
+.titulo{font-family: "Franklin Gothic",sans-serif;}
+.titulo2{ font-family: "angsana_newregular",normal;}
+.idcajas{ font-family: "angsana_newregular",normal;}
+.idcajas2{ font-family: "angsana_newregular",normal;}
+.twittertitulo{ font-family: "angsana_newregular",normal;}
+.contador{ font-family: "angsana_newregular",normal;}
+.pie1{ font-family: "angsana_newregular",normal;}
+.pie2{ font-family: "angsana_newregular",normal;}
+.pie3{ font-family: "angsana_newregular",normal;}
+.pie4{ font-family: "angsana_newregular",normal;}
+
