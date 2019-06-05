@@ -14,7 +14,7 @@ body{
 header{
 	margin:auto;
 	background-color: #005883;
-	padding: 1px;
+	padding: 0px;
 	min-height: 1px;
 	width: 100%;
 	position: fixed;
@@ -174,6 +174,7 @@ tbody tr td a:hover{
 	margin: 0;
 	padding-top: 21px;
 	padding-left: 0;
+	
 }
 #menus li{
 	text-align: center;
@@ -183,6 +184,7 @@ tbody tr td a:hover{
 #menus nav{
 	text-align: center;
 	margin-top: 0px;
+
 }
 #menus a{
 	
@@ -204,6 +206,82 @@ tbody tr td a:hover{
 	background: #F0B429;
 	font-weight: 20;
 }
+
+
+
+
+.menu ul{
+	display: flex;
+
+}
+.menu ul ul{
+	display: none;
+}
+.menu a{
+	display: block;
+}
+
+.menu ul li:hover ul{
+	display: none;
+	position: static;
+
+}
+
+#general .lista .menu .submenu .sub.sub a{
+	padding-left: 12px;
+	font-size: 10px;
+	text-align: left;
+
+}
+
+#general .lista .menu .submenu .sub a:hover{
+	font-size: 11.9px;
+	background: #005883;
+	color: #fff;
+	padding-left: 0px;
+
+}
+#general .lista .menu .submenu .sub a:focus{
+	background: #005883;
+	color: #fff;
+}
+#general .lista .menu .submenu .sub a:active{
+	color:#f4f4f4;
+	background: #F0B429;
+	font-weight: 20px;
+}
+
+/*boton menus*/
+#boton label{
+	margin-top: 35px;
+	font-size: 40px;
+	cursor:pointer;
+	display: none;
+}
+#btn-menu{
+	display: none;
+}
+.menu a span{
+	margin-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*cabecera*/
@@ -410,3 +488,124 @@ margin-top: 1px;
 	margin-top: 0px;
 	padding-left: 50px;
 }
+
+
+/*Responsive para equipos portatil*/
+
+@media (min-width: 1049px) {
+#menus nav{
+	width: auto;
+	margin-left: 5%;
+	
+}
+#general .lista .menu .submenu .sub.sub a{
+	padding-left: 25px;
+	font-size: 14px;
+	text-align: left;
+}
+.menu a span{
+	margin-left: 6px;
+}
+
+}
+
+/*Responsive para PC de Escritorio*/
+@media (min-width: 1470px) {
+
+#menus nav{
+	width: auto;
+	margin-left: 10%;
+
+}
+
+#general .lista .menu .submenu .sub.sub a{
+	padding-left: 25px;
+	font-size: 14px;
+	text-align: left;
+
+}
+.menu a span{
+	margin-left: 12px;
+}
+
+}
+
+
+
+
+
+
+/*Responsive boton Menu*/
+@media (max-width: 768px) {
+
+#boton label{
+	display: block;
+}
+.menu {
+	position: absolute;
+	top: 40px;
+	left:0;
+	width: 100%;
+	transform: translateY(-400%);
+	transition: all 0.3s;
+}
+
+.menu ul{
+	display: block;
+	
+	background: #808080;
+}
+.menu ul li:hover ul{
+	
+}
+#btn-menu:checked ~ .menu{
+		transform: translateY(-0%);
+		position: relative;
+	}
+	section {
+		padding-left: 0px;
+	}
+
+	.menu ul ul{
+		background: #333333
+	}
+	#general .lista .menu .submenu .sub.sub a{
+	padding-left: 170px;
+	font-size: 20px;
+	text-align: left;
+
+}
+#menus{
+	color:#005883;
+}
+
+#menus:hover{
+	
+	color: #F0B429;
+	}
+
+#menus:active{
+	color:#F47920;
+}
+.menu a span{
+	margin-left: 12px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
