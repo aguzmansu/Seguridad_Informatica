@@ -171,20 +171,25 @@ section #logounad{
 	background-color: #f4f4f4;
 	padding-left: 0px;
 	position: fixed;
+
 }
 
 
 #logounad img{
-	width: 121px;
-	height: 47.2px;
-	margin-top: 23%;
+	width: 135px;
+	height: 36.5px;
 	margin left: :auto;
-	margin-right: auto;
-	margin-bottom:auto;	
+	margin-right: auto;		
 	padding-left: 0px;
 	padding-top: 1px;
 	padding-bottom: 3px;
 	position: fixed;
+	bottom: 0;
+	top: 0;
+	margin-top: 99px;
+	margin-bottom:0px;
+
+
 }
 
 
@@ -523,10 +528,117 @@ color: #B3B3B3;
 }
 
 
+/*________________________________________________________*/
+/*________________________________________________________*/
+/*________________________________________________________*/
+/*________________________________________________________*/
+
+@media (min-width: 720px) {
+#logounad img{
+	position: fixed;	
+	padding-left: 10px;
+	width: 202px;
+	height: 54px;
+	padding-left: 20px;	
+	bottom: 0;
+	top: 0;
+	margin-top: 90px;
+	margin-bottom:0px;
+}
+
+#menus a{
+	font-size: 18px;
+	padding-top: 30px;
+}
+section #principal{
+	width: 190px;
+	height: 90px;
+	margin-left: 30px;
+}
+nav#general{	
+	width: 83%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+
+
+}
+
+
+#menus a:hover{	
+	
+	font-size: 19px;
+}
+#general .lista .menu .submenu .sub.sub a{
+	
+	font-size: 17px;
+
+}
+#general .lista .menu .submenu .sub a:hover{
+	font-size: 18px;
+
+}
+
+nav#cajas{	
+	width: 83%;
+	height: auto;
+	
+
+}
+#cajas li img {
+    width: 50px;
+    height: 53px;
+
+}
+
+
+#cajas h2{	
+	text-align: center;
+	font-size: 18px;
+}
+ 
+section#contenido{
+	
+	background-color: #f4f4f4;
+	border-radius: 0.5em;
+	display: inline-block;
+	max-width: 2000px;
+	min-height: 860px;
+	vertical-align: top;
+	margin-top: 12px;
+	margin-right: 1%;
+	margin-left: 25%;
+	width: 80%;
+	height: 860px;
+}
+
+#cabecera img{
+	width: 75%;
+	height: 100px;
+	margin: auto;
+	border-radius: 0.5em;
+	padding-left: 50px;
+}
 
 
 
+.video iframe{
+	width:75%; 
+	height: 300px;
+	border-radius: 0.5em;
+	margin: auto;
+	padding-left: 50px;
+}
+.video embed{
+	width:75%; 
+	height: 500px;
+	border-radius: 0.5em;
+	margin: auto;
+	padding-left: 50px;
 
+
+
+}
 
 
 
@@ -546,13 +658,22 @@ color: #B3B3B3;
 
 @media (min-width: 1049px) {
 section #logounad{
-	padding-left: 33px;
-	height: 160px; 
+
+	padding-left: 1px;
+	height: 160px;	
+	margin-top: 2%;	
+	width: 202px;
+	height: 54px;
+	
 }
 #logounad img{
+	position: fixed;
 	width: 243px;
 	height: 65.594px;
-	margin-top: 6%;
+	bottom: 0;
+	top: 0;
+	margin-top: 90px;
+	margin-bottom:0px;
 }
 section #principal{
 		width: 13%;
@@ -574,6 +695,21 @@ section #principal{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 15px;
+
+}
+section#contenido{
+	background-color: #f4f4f4;
+	border-radius: 0.5em;
+	display: inline-block;
+	max-width: 2000px;
+	min-height: 860px;
+	vertical-align: top;
+	margin-top: 12px;
+	margin-right: 1%;
+	margin-left: 20%;
+	width: 70%;
+	height: 860px;
+
 }
 nav#cajas{	
 	height: 645px;
@@ -587,39 +723,13 @@ nav#cajas{
 	text-align: center;
 	font-size: 15px;
 }
-section#contenido{
-	background-color: #f4f4f4;
-	border-radius: 0.5em;
-	display: inline-block;
-	max-width: 2000px;
-	min-height: 860px;
-	vertical-align: top;
-	margin-top: 12px;
-	margin-right: 1%;
-	margin-left: 17%;
-	width: 82%;
-	height: 860px;
-}
-#cabecera img{
-	width: 99%;
-	height: 187px;
-}
-iframe{
-	width:99%; 
-	height: 475px;
-	border-radius: 0.5em;
-	margin: auto;
-}
 embed{
 	width:99%; 
 	height: 475px;
 	border-radius: 0.5em;
 	margin: auto;
-}
 
-#menus a{	
 	
-	font-size: 14px;
 }
 #menus a:hover{	
 	
@@ -636,10 +746,37 @@ embed{
 	
 }
 #cabecera img{
-	width: 80%;
-	height: 144px;
-	margin-left: 10%; 
+	width: 90%;
+	height: 140px;
+	margin: auto;
+	border-radius: 0.5em;
+	padding-left: 70px;
 }
+
+
+
+.video iframe{
+	width:90%; 
+	height: 300px;
+	border-radius: 0.5em;
+	margin: auto;
+	padding-left: 70px;
+}
+.video embed{
+	width:90%; 
+	height: 500px;
+	border-radius: 0.5em;
+	margin: auto;
+	padding-left: 70px;
+
+
+
+}
+
+
+
+
+
 }
 
 
@@ -652,7 +789,13 @@ embed{
 /*Responsive para PC de Escritorio*/
 @media (min-width: 1470px) {
 #logounad img{
-		margin-top: 4%;
+	position: fixed;
+	padding-left: 1px;
+	height: 160px;	
+	margin-top: 3%;	
+	width: 202px;
+	height: 54px;
+	padding-left: 25px;
 }
 section #principal{
 		height: 83%;		
@@ -682,18 +825,53 @@ nav#general{
 	
 	
 }
+
+
+
+section#contenido{
+	
+	background-color: #f4f4f4;
+	border-radius: 0.5em;
+	display: inline-block;
+	max-width: 2000px;
+	min-height: 860px;
+	vertical-align: top;
+	margin-top: 12px;
+	margin-right: 1%;
+	margin-left: 20%;
+	width: 70%;
+	height: 860px;
+
+}
+
+	
+
 #cabecera img{
-	width: 80%;
-	height: 155px;
-	margin-left: 10%;
+	width: 90%;
+	height: 150px;
+	margin: auto;
+	border-radius: 0.5em;
+	padding-left: 70px;
 }
-iframe{
-	width: 80%;
-	margin-left: 10%;
+
+
+
+.video iframe{
+	width:90%; 
+	height: 300px;
+	border-radius: 0.5em;
+	margin: auto;
+	padding-left: 70px;
 }
-embed{
-	width: 80%;
-	margin-left: 10%;
+.video embed{
+	width:90%; 
+	height: 500px;
+	border-radius: 0.5em;
+	margin: auto;
+	padding-left: 70px;
+
+
+
 }
 
 

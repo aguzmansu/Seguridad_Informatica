@@ -649,6 +649,72 @@ iframe{
 }
 
 
+/*________________________________________________________*/
+/*________________________________________________________*/
+/*________________________________________________________*/
+/*________________________________________________________*/
+
+@media (min-width: 720px) {
+#logounad img{	
+	margin-top: 9%;
+	padding-left: 10px;
+	width: 202px;
+	height: 54px;
+	padding-left: 30px;	
+}
+
+#menus a{
+	font-size: 18px;
+	padding-top: 30px;
+}
+section #principal{
+	width: 240px;
+	height: 90px;
+	margin-left: 30px;
+}
+nav#general{	
+	width: 83%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+
+}
+#menus a:hover{	
+	
+	font-size: 19px;
+}
+#general .lista .menu .submenu .sub.sub a{
+	
+	font-size: 17px;
+
+}
+#general .lista .menu .submenu .sub a:hover{
+	font-size: 18px;
+
+}
+
+nav#cajas{	
+	width: 83%;
+	height: auto;
+	
+
+}
+#cajas li img {
+    width: 50px;
+    height: 53px;
+
+}
+
+
+#cajas h2{	
+	text-align: center;
+	font-size: 18px;
+}
+ .informacion1 iframe{
+	height: 830px;
+	
+}
+}
 
 
 
@@ -660,6 +726,15 @@ iframe{
 /*Responsive para equipos portatil*/
 
 @media (min-width: 1049px) {
+
+	nav#general{	
+	width: 80%;
+	height: auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+
+
+}
 section #logounad{
 	padding-left: 33px;
 	height: 160px; 
@@ -668,6 +743,7 @@ section #logounad{
 	width: 243px;
 	height: 65.594px;
 	margin-top: 6%;
+	padding-left: 0px;
 }
 section #principal{
 		width: 13%;
@@ -691,6 +767,7 @@ section #principal{
 	font-size: 15px;
 }
 nav#cajas{	
+	width: 80%;
 	height: 645px;
 }
 
@@ -732,9 +809,15 @@ embed{
 	margin: auto;
 }
 
+.informacion1 iframe{
+	height: 700px;
+	
+}
+
 #menus a{	
 	
 	font-size: 14px;
+	padding-top: 0px;
 }
 #menus a:hover{	
 	
@@ -867,11 +950,15 @@ section #principal{
 		height: 83%;		
 }
 nav #cajas{
+	width: 80%;
 	height: 650px;
 
 }
 nav#general{
 	min-height: 100px;
+	height: auto;
+	margin-top: 2px;
+	margin-bottom: 30px;
 }
 #menus a{	
 	
@@ -983,7 +1070,9 @@ nav{
 #informaciones .informacionfinal p{
 	font-size: 25px;
 }
-
+.informacion1 iframe{
+	height: 550px;
+}
 
 /*Pagina Referencias bibliograficas*/
 #referencias .tilref h3{
@@ -1048,3 +1137,7 @@ height: 261.683px;
 
 
 }
+
+
+
+
