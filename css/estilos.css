@@ -381,29 +381,51 @@ font-size: 25px;
 margin-top: 10px; 
 margin-bottom: 5px;
 }
-#twitter{
-	margin-top: 0px;
+
+
+
+section#widget{
+	margin: 0.5em auto;
+	width: 100%;
+	padding: 0;
+	background: #f4f4f4;
+	text-align: center;
+
+	
+}
+#logotwitter,#twitterunad,#seguirunad{/*aside*/
+	background: #f4f4f4;
+	border-radius: 0.5em;
+	display: inline-block;	
+	margin-top: 0.2em auto;
+	max-width: 960px;
+	vertical-align: top;
+	width: 45%;
 }
 
-#twitter img{
-	width: 60px;
+#logotwitter {
+	margin-top: 186px;
+	width: 98px;
+	height:79px;
 }
-#twitter ul{
-	margin: 0;
-	padding: 0;
+
+
+#logotwitter img{
+	
+	width: 98px;
+	height:79px;
 }
-#twitter li{
-	text-align: center;
-	display: inline;
-	padding-left: 20px;
-	padding-right:30px;
-	margin-left: 9%;
+
+#seguirunad{
+	margin-top: 186px;
+	width: 98px;
+	height:30px;
 }
-#twitter nav{
-	text-align: center;
-	margin-top: 0px;
-	padding-left: 0px;
-}
+
+
+
+
+
 /*contador*/
 #contadores{
 	padding: 0px;
