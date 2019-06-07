@@ -175,16 +175,20 @@ section #logounad{
 
 
 #logounad img{
-	width: 121px;
-	height: 47.2px;
-	margin-top: 23%;
+	
+	width: 135px;
+	height: 36.5px;
 	margin left: :auto;
-	margin-right: auto;
-	margin-bottom:auto;	
+	margin-right: auto;		
 	padding-left: 0px;
 	padding-top: 1px;
 	padding-bottom: 3px;
 	position: fixed;
+	bottom: 0;
+	top: 0;
+	margin-top: 99px;
+	margin-bottom:0px;
+
 }
 
 
@@ -432,16 +436,18 @@ section#contenido{
 }
 
 main {
+width: 93%;
 border-left-width: 2px;
 border-left-style: solid;
 border-right-width: 2px;
 border-right-style: solid;
 padding-left: 12px;
 padding-right: 12px;
-margin-right: 10%;
-margin-left: 10%;
+margin-right: 0px;
+margin-left: 0px;
 color: #B3B3B3;
 }
+
 
 
 
@@ -600,13 +606,17 @@ iframe{
 	border-radius: 0.5em;
 	margin: auto;
 }
+ .informacion1 iframe{
+	height: 830px;
+}
 
 
 
 /*Footer (Pie de Pagina)*/
 #piedepagina{
 	background-color: black;
-	width: 99%
+	width: 99%;
+	
 }
 #piedepagina nav{
 	text-align: center;
@@ -656,11 +666,15 @@ iframe{
 
 @media (min-width: 720px) {
 #logounad img{	
-	margin-top: 9%;
+	position: fixed;	
 	padding-left: 10px;
 	width: 202px;
 	height: 54px;
-	padding-left: 30px;	
+	padding-left: 20px;	
+	bottom: 0;
+	top: 0;
+	margin-top: 90px;
+	margin-bottom:0px;
 }
 
 #menus a{
@@ -714,12 +728,27 @@ nav#cajas{
 	height: 830px;
 	
 }
+#cabecera img{
+	width: 75%;
+	height: 100px;
+	margin: auto;
+	border-radius: 0.5em;
+	padding-left: 81px;
+
 }
+main {
+width: 69%;
+margin-right: 61px;
+margin-left: 81px;
 
 
 
-
-
+}
+#piedepagina{
+	width: 75%;
+	margin-left: 81px ;
+}
+}
 
 
 
@@ -735,15 +764,15 @@ nav#cajas{
 
 
 }
-section #logounad{
-	padding-left: 33px;
-	height: 160px; 
-}
+
 #logounad img{
-	width: 243px;
-	height: 65.594px;
-	margin-top: 6%;
-	padding-left: 0px;
+	position: fixed;
+	width: 227px;
+	height: 65.575px;
+	bottom: 0;
+	top: 0;
+	margin-top: 90px;
+	margin-bottom:0px;
 }
 section #principal{
 		width: 13%;
@@ -792,10 +821,7 @@ section#contenido{
 	width: 82%;
 	height: 860px;
 }
-#cabecera img{
-	width: 99%;
-	height: 187px;
-}
+
 iframe{
 	width:99%; 
 	height: 475px;
@@ -834,10 +860,22 @@ embed{
 	
 }
 #cabecera img{
-	width: 80%;
-	height: 144px;
-	margin-left: 10%; 
+	width: 90%;
+	height: 140px;
+	margin: auto;
+	border-radius: 0.5em;
+	padding-left: 70px;
 }
+
+main {
+width: 85%;
+margin-right: 61px;
+margin-left: 78px;
+
+}
+
+
+
 #informaciones .tilinfo h3{
 	font-size: 25px;
 
@@ -928,6 +966,12 @@ height: 191.683px;
 	margin-top: 40px;
 }
 /*Fin Pagina Autores*/
+#piedepagina{
+	width: 90%;
+	margin-left: 70px ;
+}
+
+
 
 }
 
@@ -944,7 +988,15 @@ height: 191.683px;
 /*Responsive para PC de Escritorio*/
 @media (min-width: 1470px) {
 #logounad img{
-		margin-top: 4%;
+	position: fixed;
+	height: 160px;	
+	width: 202px;
+	height: 54px;
+	padding-left: 25px;
+	bottom: 0;
+	top: 0;
+	margin-top: 90px;
+	margin-bottom:0px;
 }
 section #principal{
 		height: 83%;		
@@ -979,9 +1031,16 @@ nav#general{
 	
 }
 #cabecera img{
-	width: 80%;
-	height: 155px;
-	margin-left: 10%;
+	width: 90%;
+	height: 150px;
+	margin: auto;
+	border-radius: 0.5em;
+	padding-left: 70px;
+}
+main {
+width: 86%;
+
+
 }
 /*estilos globales*/
 body{
@@ -1134,7 +1193,6 @@ height: 261.683px;
 /*Fin Pagina Autores*/
 
 }
-
 
 }
 

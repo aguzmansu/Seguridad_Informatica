@@ -235,7 +235,7 @@ nav#cajas{
 	padding: 0.25em;
 	margin-top: 17px;
 	width: 80%;
-	height: 400px;
+	height: 345px;
 
 
 	float: left;
@@ -435,6 +435,19 @@ section#contenido{
 	margin: auto;
 	border-radius: 0.5em;
 }
+.video iframe{
+	width:99%; 
+	height: 300px;
+	border-radius: 0.5em;
+	margin: auto;
+	
+}
+.video embed{
+	width:99%; 
+	height: 500px;
+	border-radius: 0.5em;
+	margin: auto;
+}	
 
 main {
 border-left-width: 2px;
@@ -479,7 +492,6 @@ color: #B3B3B3;
 
 
 }
-
 
 
 /*Footer (Pie de Pagina)*/
@@ -643,6 +655,16 @@ section#contenido{
 
 
 
+#piedepagina{
+	width: 72%;
+	margin-left: 59px;
+}
+
+}
+
+
+
+
 
 
 
@@ -712,7 +734,7 @@ section#contenido{
 
 }
 nav#cajas{	
-	height: 645px;
+	height: auto;
 }
 
 #cajas li img{
@@ -772,11 +794,10 @@ embed{
 
 
 }
-
-
-
-
-
+#piedepagina{
+	width: 90%;
+	margin-left: 70px;
+}
 }
 
 
@@ -790,18 +811,21 @@ embed{
 @media (min-width: 1470px) {
 #logounad img{
 	position: fixed;
-	padding-left: 1px;
 	height: 160px;	
-	margin-top: 3%;	
 	width: 202px;
 	height: 54px;
 	padding-left: 25px;
+	bottom: 0;
+	top: 0;
+	margin-top: 90px;
+	margin-bottom:0px;
+
 }
 section #principal{
 		height: 83%;		
 }
 nav #cajas{
-	height: 650px;
+	height: auto;
 
 }
 nav#general{
@@ -873,6 +897,9 @@ section#contenido{
 
 
 }
+#piedepagina{
+	width: 90%;
+	margin-left: 70px;
 
 
 
