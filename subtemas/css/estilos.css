@@ -84,6 +84,8 @@ header .resaltado, .actual a{
 
 
 
+
+
 /*Buscador*/
 .header-top{
 	width: 100%;
@@ -164,6 +166,8 @@ tbody tr td a:hover{
 
 
 
+
+
 /*Seccion Logo Unad*/
 section #logounad{
 	width: 100%;
@@ -171,9 +175,7 @@ section #logounad{
 	background-color: #f4f4f4;
 	padding-left: 0px;
 	position: fixed;
-
 }
-
 
 #logounad img{
 	width: 135px;
@@ -188,9 +190,9 @@ section #logounad{
 	top: 0;
 	margin-top: 99px;
 	margin-bottom:0px;
-
-
 }
+
+
 
 
 
@@ -210,6 +212,7 @@ section#principal{
 	position: fixed;
 	overflow: auto;
 }
+
 nav#general{
 	background:#f4f4f4;
 	border-radius: 0.5em;
@@ -226,21 +229,17 @@ nav#general{
 	border-left-width: 2px;
 	border-left-style: solid;
 	border-color: #005883;
-	
 }
+
 nav#cajas{
 	background:#f4f4f4;
 	border-radius: 0.5em;
-	
 	padding: 0.25em;
 	margin-top: 17px;
 	width: 80%;
 	height: 345px;
-
-
 	float: left;
 	text-align: center;
-	
 	margin-bottom:  3.8%;
 	padding-top: 0.25em;
 	padding-left: 0.25em;
@@ -256,6 +255,7 @@ nav#cajas{
 	border-left-style: solid;
 	border-color: #005883;
 }
+
 nav#overflow{
 	background:#f4f4f4;
 	width: 80%;
@@ -263,56 +263,52 @@ nav#overflow{
 	float: left;	
 	margin-bottom:3.8%;
 }
+
 section#menus {
 width: 100%;
 margin-top: 150px;
 }
+
 #menus nav{
 	text-align: left;
 	margin-top: 0px;
 }
+
 #menus ul{
 	margin: 0;
 	padding-top: 7px;
 	padding-left: 0;
 }
+
 #menus li{
 	text-align: left;
 	display: block;
 	padding-bottom: 10px;
 }
+
 #menus a{	
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 10px;
-
 }
-
-
-
-
-
-
-
-
 
 .menu ul ul{
 	display: none;
 }
+
 .menu a{
 	display: block;
 }
 
+
 .menu ul li:hover ul{
 	display: none;
 	position: static;
-
 }
 
 #general .lista .menu .submenu .sub.sub a{
 	padding-left: 12px;
 	font-size: 10px;
-
 }
 
 #general .lista .menu .submenu .sub a:hover{
@@ -322,56 +318,42 @@ margin-top: 150px;
 	padding-left: 0px;
 
 }
+
 #general .lista .menu .submenu .sub a:focus{
 	background: #005883;
 	color: #fff;
 }
+
 #general .lista .menu .submenu .sub a:active{
 	color:#f4f4f4;
 	background: #F0B429;
 	font-weight: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav #general{
 		width: 10%;
 		height: auto;
 }
+
 #general a:hover{
 	font-size: 11px;
 	background: #005883;
 	color: #fff;
 }
+
 #general a:focus{
 	background: #005883;
 	color: #fff;
 }
+
 #general a:active{
 	color:#f4f4f4;
 	background: #F0B429;
 	font-weight: 20px;
 }
+
+
+
 
 
 /*cajas*/
@@ -380,38 +362,46 @@ nav #general{
 	padding-top: 21px;
 	padding-left: 0;
 }
+
 #cajas li{
 	text-align: center;
 	display: block;
 	padding-bottom: 15px;
 }
+
 #cajas li img{
 	width: 22.5px;
 	height:23px;
 }
+
 #cajas a{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 13px;
 }
+
 #cajas h2{
 	text-align: center;
 	font-size: 8px;
 }
+
 #cajas a:hover{
 	font-size: 10px;
 	background: #005883;
 	color:  #005883;
 }
+
 #cajas a:focus{
 	background: #005883;
 	color:  #005883;
 }
+
 #cajas a:active{
 	color:#F0B429;
 	background: #F0B429;
 	font-weight: 20;
 }
+
 
 
 
@@ -429,12 +419,14 @@ section#contenido{
 	width: 67%;
 	height: 860px;
 }
+
 #cabecera img{
 	width: 99%;
 	height: 70px;
 	margin: auto;
 	border-radius: 0.5em;
 }
+
 .video iframe{
 	width:99%; 
 	height: 300px;
@@ -442,6 +434,7 @@ section#contenido{
 	margin: auto;
 	
 }
+
 .video embed{
 	width:99%; 
 	height: 500px;
@@ -460,6 +453,7 @@ margin-right: 10%;
 margin-left: 10%;
 color: #B3B3B3;
 }
+
 #informaciones .tilinfo h3{
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
@@ -469,6 +463,7 @@ color: #B3B3B3;
 	margin-bottom: 0px;
 	color:#005883;
 }
+
 #informaciones .informacion p{
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
@@ -477,21 +472,24 @@ color: #B3B3B3;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color:#005883;
-
 }
+
 #informaciones .informacion h4{
 	color:#005883;
 
 }
+
 #informaciones .informacionfinal p{
 	color:#005883;
 	margin-bottom: 32px;
 }
+
 #informaciones .informacionfinal h4{
 	color:#005883;
-
-
 }
+
+
+
 
 
 /*Footer (Pie de Pagina)*/
@@ -499,17 +497,20 @@ color: #B3B3B3;
 	background-color: black;
 	width: 99%
 }
+
 #piedepagina nav{
 	text-align: center;
 	margin-top: 0px;
 	padding-left: 1px;
 	border-top: 1px solid #333;
 }
+
 #piedepagina ul{
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
+
 #piedepagina li{
 	text-align: center;
 	display: inline;
@@ -517,22 +518,26 @@ color: #B3B3B3;
 	padding-right:0px;
 	margin-left: 0px;
 }
+
 #piedepagina a{
 	color: #f4f4f4;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 12px;
 }
+
 .pie3 #UNAD{
 	width: 270px;
 	height: 90px;
 	padding-left: 10px;
 }
+
 #piedepagina .contenedor .pie3 nav #UNAD{
 	text-align: center;
 	margin-top: 0px;
 	
 }
+
 #piedepagina .contenedor .pie3 nav #logopagina{
 	text-align: center;
 	margin-top: 0px;
@@ -540,12 +545,21 @@ color: #B3B3B3;
 }
 
 
+
+
+
 /*________________________________________________________*/
 /*________________________________________________________*/
 /*________________________________________________________*/
 /*________________________________________________________*/
 
+
+
+
+
+/*Responsive para equipos Moviles*/
 @media (min-width: 720px) {
+
 #logounad img{
 	position: fixed;	
 	padding-left: 10px;
@@ -562,55 +576,48 @@ color: #B3B3B3;
 	font-size: 18px;
 	padding-top: 30px;
 }
+
 section #principal{
 	width: 190px;
 	height: 90px;
 	margin-left: 30px;
 }
+
 nav#general{	
 	width: 83%;
 	height: auto;
 	margin-top: 20px;
 	margin-bottom: 50px;
-
-
 }
-
 
 #menus a:hover{	
-	
 	font-size: 19px;
 }
-#general .lista .menu .submenu .sub.sub a{
-	
-	font-size: 17px;
 
+#general .lista .menu .submenu .sub.sub a{
+	font-size: 17px;
 }
+
 #general .lista .menu .submenu .sub a:hover{
 	font-size: 18px;
-
 }
 
 nav#cajas{	
 	width: 83%;
 	height: auto;
-	
-
 }
+
 #cajas li img {
     width: 50px;
     height: 53px;
-
 }
-
 
 #cajas h2{	
 	text-align: center;
 	font-size: 18px;
 }
- 
+
 section#contenido{
-	
 	background-color: #f4f4f4;
 	border-radius: 0.5em;
 	display: inline-block;
@@ -632,8 +639,6 @@ section#contenido{
 	padding-left: 50px;
 }
 
-
-
 .video iframe{
 	width:75%; 
 	height: 300px;
@@ -641,36 +646,22 @@ section#contenido{
 	margin: auto;
 	padding-left: 50px;
 }
+
 .video embed{
 	width:75%; 
 	height: 500px;
 	border-radius: 0.5em;
 	margin: auto;
 	padding-left: 50px;
-
-
-
 }
-
-
-
 
 #piedepagina{
 	width: 72%;
 	margin-left: 59px;
 }
 
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -679,15 +670,15 @@ section#contenido{
 /*Responsive para equipos portatil*/
 
 @media (min-width: 1049px) {
-section #logounad{
 
+section #logounad{
 	padding-left: 1px;
 	height: 160px;	
 	margin-top: 2%;	
 	width: 202px;
 	height: 54px;
-	
 }
+
 #logounad img{
 	position: fixed;
 	width: 243px;
@@ -697,6 +688,7 @@ section #logounad{
 	margin-top: 90px;
 	margin-bottom:0px;
 }
+
 section #principal{
 		width: 13%;
 		height: 64%;		
@@ -710,15 +702,17 @@ section #principal{
 #menus ul{
 	padding-top: 15px;
 }
+
 #menus li{
 	padding-bottom: 20px;
 }
+
 #menus a{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 15px;
-
 }
+
 section#contenido{
 	background-color: #f4f4f4;
 	border-radius: 0.5em;
@@ -731,8 +725,8 @@ section#contenido{
 	margin-left: 20%;
 	width: 70%;
 	height: 860px;
-
 }
+
 nav#cajas{	
 	height: auto;
 }
@@ -741,32 +735,31 @@ nav#cajas{
 	width: 40.9px;
 	height:41.8px;
 }
+
 #cajas h2{	
 	text-align: center;
 	font-size: 15px;
 }
+
 embed{
 	width:99%; 
 	height: 475px;
 	border-radius: 0.5em;
 	margin: auto;
-
-	
 }
+
 #menus a:hover{	
-	
 	font-size: 15px;
 }
-#general .lista .menu .submenu .sub.sub a{
-	
-	font-size: 10px;
 
+#general .lista .menu .submenu .sub.sub a{
+	font-size: 10px;
 }
+
 #general .lista .menu .submenu .sub a:hover{
 	font-size: 11px;
-	
-	
 }
+
 #cabecera img{
 	width: 90%;
 	height: 140px;
@@ -775,8 +768,6 @@ embed{
 	padding-left: 70px;
 }
 
-
-
 .video iframe{
 	width:90%; 
 	height: 300px;
@@ -784,24 +775,22 @@ embed{
 	margin: auto;
 	padding-left: 70px;
 }
+
 .video embed{
 	width:90%; 
 	height: 500px;
 	border-radius: 0.5em;
 	margin: auto;
 	padding-left: 70px;
-
-
-
 }
+
 #piedepagina{
 	width: 90%;
 	margin-left: 70px;
 }
+
+
 }
-
-
-
 
 
 
@@ -809,6 +798,7 @@ embed{
 
 /*Responsive para PC de Escritorio*/
 @media (min-width: 1470px) {
+
 #logounad img{
 	position: fixed;
 	height: 160px;	
@@ -819,41 +809,40 @@ embed{
 	top: 0;
 	margin-top: 90px;
 	margin-bottom:0px;
-
 }
+
 section #principal{
 		height: 83%;		
 }
+
 nav #cajas{
 	height: auto;
-
 }
+
 nav#general{
 	min-height: 100px;
-}
-#menus a{	
-	
-	font-size: 20px;
-}
-#menus a:hover{	
-	
-	font-size: 22px;
-}
-#general .lista .menu .submenu .sub.sub a{
-	
-	font-size: 15px;
 
 }
+
+#menus a{	
+	font-size: 20px;
+
+}
+
+#menus a:hover{	
+	font-size: 22px;
+
+}
+
+#general .lista .menu .submenu .sub.sub a{
+	font-size: 15px;
+}
+
 #general .lista .menu .submenu .sub a:hover{
 	font-size: 17px;
-	
-	
 }
 
-
-
 section#contenido{
-	
 	background-color: #f4f4f4;
 	border-radius: 0.5em;
 	display: inline-block;
@@ -865,10 +854,7 @@ section#contenido{
 	margin-left: 20%;
 	width: 70%;
 	height: 860px;
-
 }
-
-	
 
 #cabecera img{
 	width: 90%;
@@ -878,8 +864,6 @@ section#contenido{
 	padding-left: 70px;
 }
 
-
-
 .video iframe{
 	width:90%; 
 	height: 300px;
@@ -887,20 +871,19 @@ section#contenido{
 	margin: auto;
 	padding-left: 70px;
 }
+
 .video embed{
 	width:90%; 
 	height: 500px;
 	border-radius: 0.5em;
 	margin: auto;
 	padding-left: 70px;
-
-
-
 }
+
 #piedepagina{
 	width: 90%;
 	margin-left: 70px;
-
+}
 
 
 }

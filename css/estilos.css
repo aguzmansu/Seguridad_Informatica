@@ -86,6 +86,8 @@ header .resaltado, .actual a{
 
 
 
+
+
 /*Buscador*/
 .header-top{
 	width: 100%;
@@ -162,6 +164,9 @@ tbody tr td a:hover{
 
 
 
+
+
+
 /*menus*/
 #logounad img{
 	width: 243px;
@@ -209,10 +214,8 @@ tbody tr td a:hover{
 	font-weight: 20;
 }
 
-
-
-
 .menu ul{
+
 	display: flex;
 
 }
@@ -257,23 +260,6 @@ tbody tr td a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*cabecera*/
 #cabecera .contenedor{
 	height: 400px;
@@ -299,6 +285,8 @@ tbody tr td a:hover{
 	color: #f4f4f4;
 	background-color:#005883;
 }
+
+
 
 
 
@@ -367,6 +355,8 @@ height: 93.35px;
 
 
 
+
+
 /*widget para la red social Twitter*/
 #twittertitulo{
 	padding: 0px;
@@ -382,17 +372,15 @@ margin-top: 10px;
 margin-bottom: 5px;
 }
 
-
-
 section#widget{
 	margin: 0.5em auto;
 	width: 100%;
 	padding: 0;
 	background: #f4f4f4;
 	text-align: center;
-
 	
 }
+
 #logotwitter,#twitterunad,#seguirunad{/*aside*/
 	background: #f4f4f4;
 	border-radius: 0.5em;
@@ -455,6 +443,8 @@ padding: 0px;
 height: 40px;
 margin-top: 1px;
 }
+
+
 
 
 
@@ -577,14 +567,12 @@ margin-top: 1px;
 
 #menus{
 	color:#005883;
-
 }
-
 
 #menus:hover{
 
 	color: #F0B429;
-	}
+}
 
 #menus:active{
 	color:#F47920;
@@ -600,9 +588,9 @@ margin-top: 1px;
 
 
 
+
+
 /*Responsive para equipos movil*/
-
-
 @media (min-width: 974px) {
 
 #boton label{
@@ -623,24 +611,24 @@ margin-top: 1px;
 }
 #menus a:hover {
     font-size: 14px;
-
 }
 #general .lista .menu .submenu .sub.sub a {
     
     font-size: 9.5px;
 }
 
-    #general .lista .menu .submenu .sub.sub a:hover {
+#general .lista .menu .submenu .sub.sub a:hover {
     
     font-size: 11px;
 }
 #general .lista .menu .submenu .sub.sub{
     
     background: #808080;
-   
 }
 
+
 }
+
 
 
 
@@ -681,7 +669,7 @@ margin-top: 1px;
     font-size: 9.5px;
 }
 
-    #general .lista .menu .submenu .sub.sub a:hover {
+#general .lista .menu .submenu .sub.sub a:hover {
     
     font-size: 11px;
 }
@@ -695,61 +683,40 @@ margin-top: 1px;
 
 
 
+
 /*Responsive para PC de Escritorio*/
 @media (min-width: 1470px) {
 
 #menus nav{
 	width: auto;
 	margin-left: 10%;
-
 }
-
 
 .menu a span{
 	margin-left: 12px;
-
-
 }
+
 #menus a {
     
     font-size: 20px;
 }
+
 #menus a:hover {
     font-size: 22px;
 
 }
+
 #general .lista .menu .submenu .sub.sub a {
     
     font-size: 15px;
 }
 
-    #general .lista .menu .submenu .sub.sub a:hover {
+#general .lista .menu .submenu .sub.sub a:hover {
     
     font-size: 16px;
 }
+
 #general .lista .menu .submenu .sub.sub{
     
     background: #808080;
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
