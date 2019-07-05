@@ -6,7 +6,7 @@ body{
 	background-color: #f4f4f4;	
 	width: 100%;
 }
-.banner1{
+.contenedorp{
 	width: 100%;
 	margin: auto;
 	overflow: hidden;
@@ -261,7 +261,7 @@ tbody tr td a:hover{
 
 
 /*cabecera*/
-#cabeceraimg .contenedorimg{
+#cabeceraimg .banner1{
 	height: 400px;
 	width: 100%;
 	margin: auto;
@@ -298,7 +298,7 @@ tbody tr td a:hover{
 #cajas {
 	margin:0;
 }
-#cajas .contenedorcajas{
+#cajas .contenedor1{
 margin:0;
 width: 100%;
 	margin: auto;
@@ -332,7 +332,7 @@ width: 100%;
 	margin-top: 80px;
 	margin:0;
 }
-#cajas2 .contenedorcajas2{
+#cajas2 .contenedor2{
 margin:0;
 width: 100%;
 	margin: auto;
@@ -489,13 +489,13 @@ margin-top: 1px;
 	width: 276px;
 	height: 96px;
 }
-#piedepagina .contenedorpie1 .pie3 nav #UNAD{
+#piedepagina .contenedor7 .pie3 nav #UNAD{
 	text-align: center;
 	margin-top: 0px;
 	padding-right: 50px;
 
 }
-#piedepagina .contenedorpie3 .pie3{
+#piedepagina .contenedor7 .pie3{
 	text-align: center;
 	margin-top: 0px;
 	padding-left: 50px;
