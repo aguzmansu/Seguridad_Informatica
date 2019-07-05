@@ -385,7 +385,7 @@ div#widget{
 	background: #f4f4f4;
 	border-radius: 0.5em;
 	display: inline-block;	
-	margin-top: 0.2em auto;
+	margin-top: 0.2em;
 	max-width: 960px;
 	vertical-align: top;
 	width: 45%;
@@ -719,4 +719,6 @@ margin-top: 1px;
 #general .lista .menu .submenu .sub.sub{
     
     background: #808080;
+}
+
 }
