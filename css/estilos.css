@@ -6,7 +6,7 @@ body{
 	background-color: #f4f4f4;	
 	width: 100%;
 }
-.contenedor{
+.contenedorp{
 	width: 100%;
 	margin: auto;
 	overflow: hidden;
@@ -261,8 +261,11 @@ tbody tr td a:hover{
 
 
 /*cabecera*/
-#cabeceraimg .contenedor{
+#cabeceraimg .contenedorimg{
 	height: 400px;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
 }
 #cabeceratitulo h2{
 	text-align: center;
@@ -295,8 +298,11 @@ tbody tr td a:hover{
 #cajas {
 	margin:0;
 }
-#cajas .contenedor{
+#cajas .contenedorcajas{
 margin:0;
+width: 100%;
+	margin: auto;
+	overflow: hidden;
 }
 #cajas .caja{
 	float: left;
@@ -326,8 +332,11 @@ margin:0;
 	margin-top: 80px;
 	margin:0;
 }
-#cajas2 .contenedor{
+#cajas2 .contenedorcajas2{
 margin:0;
+width: 100%;
+	margin: auto;
+	overflow: hidden;
 }
 #cajas2 .caja2{
 	float: left;
@@ -480,12 +489,13 @@ margin-top: 1px;
 	width: 276px;
 	height: 96px;
 }
-#piedepagina .contenedor .pie3 nav #UNAD{
+#piedepagina .contenedorpie1 .pie3 nav #UNAD{
 	text-align: center;
 	margin-top: 0px;
 	padding-right: 50px;
+
 }
-#piedepagina .contenedor .pie3 nav #logopagina{
+#piedepagina .contenedorpie3 .pie3{
 	text-align: center;
 	margin-top: 0px;
 	padding-left: 50px;
