@@ -261,10 +261,10 @@ tbody tr td a:hover{
 
 
 /*cabecera*/
-#cabecera .contenedor{
+#cabeceraimg .contenedor{
 	height: 400px;
 }
-#cabecera h2{
+#cabeceratitulo h2{
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 0px;
@@ -272,12 +272,12 @@ tbody tr td a:hover{
 	color: #f4f4f4;
 	background-color: #F0B429;
 }
-#cabecera img{
+#cabeceraimg img{
 	width: 100%;
 	height: 600px;
 	margin: auto;
 }
-#cabecera p{
+#cabeceratitulo2 p{
 	text-align: center;
 	margin-top: 0px;
 	font-size: 28px;
