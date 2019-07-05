@@ -211,7 +211,7 @@ tbody tr td a:hover{
 #menus a:active{
 	color:#f4f4f4;
 	background: #F0B429;
-	font-weight: 20;
+	font-weight: bold;
 }
 
 .menu ul{
@@ -253,7 +253,7 @@ tbody tr td a:hover{
 #general .lista .menu .submenu .sub a:active{
 	color:#f4f4f4;
 	background: #F0B429;
-	font-weight: 20px;
+	font-weight: bold;
 }
 
 
