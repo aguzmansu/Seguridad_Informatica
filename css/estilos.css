@@ -145,15 +145,7 @@ tbody tr td a{
 }
 tbody tr td a:hover{
 	border: 2px solid #F0B429;
-}
-.search::-webkit-scrollbar{ 
-	background:rgba(0,0,0,0);  
-}
-.search::-webkit-scrollbar-button{
- 	background:#C1C1C1;  
-}
-.search::-webkit-scrollbar-thumb{ 
-	background:#C1C1C1; 
+
 }
 .dataTables_length,
 .dataTables_filter,
