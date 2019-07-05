@@ -311,7 +311,7 @@ margin:0;
 	width: 90px;
 	height: 93.35px;
 }
-#cajas .caja h4{
+#cajas .caja h3{
 	color: #005883;
 	font-size: 14px;
 }
@@ -342,7 +342,7 @@ margin:0;
 width: 90px;
 height: 93.35px;
 }
-#cajas2 .caja2 h4{
+#cajas2 .caja2 h3{
 	color: #005883;
 	font-size: 14px;
 }
@@ -365,7 +365,7 @@ height: 93.35px;
 	text-align: center;
 }
 	
-#twittertitulo h5{
+#twittertitulo h4{
 color: #f4f4f4;	
 font-size: 25px;
 margin-top: 10px; 
@@ -423,7 +423,7 @@ div#widget{
 #contadores .contador {
 height: 30px;
 }
-#contadores .contador h3{
+#contadores .contador h5{
 text-align: center;
 margin-top: 1px;
 color: #f4f4f4;
